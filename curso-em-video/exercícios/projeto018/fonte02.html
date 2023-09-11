@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Fontes Externas</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@100;200;300;400;500;600&display=swap');
+        
+        @font-face {
+            font-family: 'OldLondon';
+            src: url('fontes/OldLondon.ttf') format('truetype'), url('fontes/Olondon_.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+
+            /* Tipos de format()
+
+                - OpenType (otf)
+                - TrueType (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+        }
+
+        body {
+            font-family: 'Ysabeau Infant', Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            color: black;
+        }
+
+        h1 {
+            font-family: 'OldLondon', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus rem numquam modi dignissimos ab maiores quasi velit ex? Quia nam, commodi recusandae reiciendis cumque consequatur quasi ut perferendis maiores magnam?</p>
+
+
+</body>
+</html>
